@@ -10,11 +10,21 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <OurServices />
-      <Links />
-      <Testimonials />
-      <LatestArticle />
+      <div id="hero">
+        <HeroSection />
+      </div>
+      <div id="services">
+        <OurServices />
+      </div>
+      <div id="apps">
+        <Links />
+      </div>
+      <div id="testimonials">
+        <Testimonials />
+      </div>
+      <div id="about">
+        <LatestArticle />
+      </div>
       <Footer />
     </>
   )

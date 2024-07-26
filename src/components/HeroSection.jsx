@@ -14,7 +14,7 @@ const HeroSection = () => {
                     <p className="text-neutral-500 text-xl mb-12">
                         Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
                     </p>
-                    <a href="" className="bg-blue-500 text-white py-4 px-10 rounded-full text-xl">
+                    <a href="" className="bg-blue-500 text-white py-4 px-10 rounded-full text-xl hover:bg-white hover:text-blue-500 hover:border-2">
                         Consult today
                     </a>
                 </div>

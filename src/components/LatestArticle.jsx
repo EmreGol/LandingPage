@@ -51,7 +51,7 @@ const LatestArticle = () => {
                 </div>
             </div>
             <div className="flex justify-center mt-20">
-                <a href="#" className="border-blue-500 border-2 text-blue-500 py-3 px-10 rounded-full text-xl font-semibold block">
+                <a href="#" className="border-blue-500 border-2 text-blue-500 py-3 px-10 rounded-full text-xl font-semibold block hover:bg-blue-500 hover:text-white hover:border-2 cursor-pointer">
                     View all
                 </a>
             </div>

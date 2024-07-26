@@ -17,7 +17,7 @@ const Links = () => {
                     <hr className="w-16 h-0.5 bg-black rounded mb-6 mx-auto sm:mx-0"/>
                     <p className="text-neutral-500 text-xl mb-12">
                         Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver                    </p>
-                    <a href="" className="border-blue-500 border-2 text-blue-500 py-3 px-10 rounded-full text-xl font-semibold">
+                    <a href="" className="border-blue-500 border-2 text-blue-500 py-3 px-10 rounded-full text-xl font-semibold hover:bg-blue-500 hover:text-white hover:border-2">
                         Learn More
                     </a>
                 </div>
@@ -37,7 +37,7 @@ const Links = () => {
                     <p className="text-neutral-500 text-xl mb-12">
                     Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely
                     </p>
-                    <a href="" className="inline-flex items-center justify-center border-blue-500 border-2 text-blue-500 py-3 px-10 rounded-full text-xl font-semibold">
+                    <a href="" className="inline-flex items-center justify-center border-blue-500 border-2 text-blue-500 py-3 px-10 rounded-full text-xl font-semibold hover:bg-blue-100 hover:text-blue-500 hover:border-2">
                         Download
                         <img src={arrow} alt="" className="ml-2"/>
                     </a>

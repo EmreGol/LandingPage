@@ -62,7 +62,7 @@ const OurServices = () => {
             
           </div>
           <div className="text-center my-20">
-            <a href="" className="border-blue-500 border rounded-full px-10 py-3 text-blue-500 font-semibold border-2">Learn More</a>
+            <a href="" className="border-blue-500 border rounded-full px-10 py-3 text-blue-500 font-semibold border-2 hover:bg-blue-500 hover:text-white hover:border-2">Learn More</a>
           </div>
         </div>
     </div>

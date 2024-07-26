@@ -8,3 +8,16 @@
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
 }
+
+@layer components {
+  .slick-dots-custom li button:before {
+    content: '';
+    background-color: theme('colors.blue.500'); /* Tailwind CSS mavi rengini uygular */
+    width: 0.5rem; /* Boyutları ayarlamak için doğrudan değerleri kullanın */
+    height: 0.5rem; /* Boyutları ayarlamak için doğrudan değerleri kullanın */
+    border-radius: 50%; /* Daire şekli vermek için */
+  }
+  .slick-dots-custom li.slick-active button:before {
+    background-color: theme('colors.blue.700'); /* Aktif nokta için farklı mavi renk uygular */
+  }
+}

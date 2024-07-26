@@ -4,6 +4,7 @@ import LatestArticle from "./components/LatestArticle"
 import Links from "./components/Links"
 import Navbar from "./components/Navbar"
 import OurServices from "./components/OurServices"
+import SlickTest from "./components/SlickTest"
 import Testimonials from "./components/Testimonials"
 
 const App = () => {

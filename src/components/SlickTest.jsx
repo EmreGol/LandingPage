@@ -7,6 +7,7 @@ import arrow_l from "../assets/arrow_l.png";
 import person from "../assets/person.png";
 import gridImg from "../assets/grid.svg"
 
+
 const NextArrow = (props) => {
     const { onClick } = props;
     return (
@@ -71,7 +72,7 @@ const settings = {
     ),
 };
 
-const Testimonials = () => {
+const SlickTest = () => {
     return (
         <div className="relative w-3/4 mx-auto py-16">
         <img src={gridImg} alt="Grid" className="absolute bottom-20 -left-10 " />
@@ -107,8 +108,6 @@ const Testimonials = () => {
             </Slider>
         </div>
     );
-
-    
 }
 
-export default Testimonials
+export default SlickTest;
